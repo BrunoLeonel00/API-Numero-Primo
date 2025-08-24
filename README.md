@@ -34,9 +34,9 @@
   
   - Criar uma branch para sua feature (git checkout -b feature/AmazingFeature)
   
-  - Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+  - Commit suas mudanças (git commit -m 'commit')
   
-  - Push para a branch (git push origin feature/AmazingFeature)
+  - Push para a branch (git push origin ...)
   
   - Abrir um Pull Request
 
