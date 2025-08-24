@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.sqlite3
+
+# VS Code
+.vscode/
+
+# Test/coverage
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.idea/
+*.swp
+
+# Static/Media (if generated)
+staticfiles/
+media/

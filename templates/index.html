@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-br" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <title>Numero primo</title>
+
+</head>
+<body>
+     <div class="container mt-5">
+        <h1 class="text-center text-primary">Número Primo 🚀</h1>
+    </div>
+    <form class="formulario" method="post">
+        <label for="numero">Digite um numero:</label>
+        <input type="number" name="numero" placeholder="Ex: 100; 200">
+        <button type="submit" class="btn btn-outline-primary">Calcular</button>
+    </form>
+
+    {% if resultado %}
+        <p class="text-center text-secundary">O próximo primo é: {{ resultado }}</p>
+    {% endif %}
+    
+</body>
+</html>
